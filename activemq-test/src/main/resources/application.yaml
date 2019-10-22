@@ -1,0 +1,7 @@
+spring:
+  activemq:
+    broker-url: tcp://172.18.1.226:61616
+    user: admin
+    password: admin
+logging:
+  com.ttit.activemq.config: debug
